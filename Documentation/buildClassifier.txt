@@ -1,0 +1,15 @@
+##
+## curl and password for public bluemix
+##
+
+curl -u "c3c17e52-e20c-442b-889c-256c7ab906c9":"1NUVA1AJhOP2" -F training_data=@foursight.csv -F training_metadata="{\"language\":\"en\",\"name\":\"FourSight2017May\"}" "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers"
+
+curl -u "c3c17e52-e20c-442b-889c-256c7ab906c9":"1NUVA1AJhOP2" "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/90e7acx197-nlc-75303"
+
+##
+## curl and password for dedicated bluemix
+##
+
+curl -u "d29f000e-462f-46ed-bfb3-e90257ce905e":"1FBEmAhmLbVK" -F training_data=@foursight-dd.csv -F training_metadata="{\"language\":\"en\",\"name\":\"FourSight2017May19\"}" "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers"
+
+curl -u "d29f000e-462f-46ed-bfb3-e90257ce905e":"1FBEmAhmLbVK" "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/90e7acx197-nlc-82494"

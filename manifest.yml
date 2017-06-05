@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 96M
+  instances: 1
+  domain: w3ibm.mybluemix.net
+  name: Z2C-FourSight
+  host: Z2C-FourSight
+  disk_quota: 1024M
+  services:
+    - Natural Language Classifier-xp
